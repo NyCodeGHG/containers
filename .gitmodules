@@ -1,0 +1,3 @@
+[submodule "whoami/whoami"]
+	path = whoami/whoami
+	url = https://github.com/traefik/whoami.git
