@@ -1,4 +1,4 @@
-FROM golang:1-alpine@sha256:b7ee04e6ed0f36eb63b02493d9226407e8f8177d93bbbdc669ef8bc739cca7b9 as builder
+FROM golang:1-alpine@sha256:4cb7ac979db5fcc41cae44b2227ba5ab8a51e8807f40d9ba4dee20a0ad960b5b as builder
 
 RUN apk --no-cache --no-progress add git ca-certificates tzdata make \
     && update-ca-certificates \
